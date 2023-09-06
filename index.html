@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qatar airlines</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-color:rgb(126, 45, 80);
+            display: flex;
+            flex-direction: column; 
+        }
+        .outerpage{
+            width:750px;
+            margin: 0px auto;
+            padding:15px;
+            background-color: rgba(255, 255, 255, 0.144);
+        }
+        .footer{
+            width:750px;
+            margin: 0px auto;
+            color:white;
+        }
+        .firstline{
+            margin:20px 0px;
+        }
+        .secondline{
+            margin-top:5px;
+            font-size: 14px;
+        }
+        .thirdline{
+            margin-top: 15px;
+            margin-bottom:10px;
+            font-size: 14px;
+        }
+        .headingline{
+            color:white;
+        }
+        .innerpage{
+            padding-left:15px;
+            padding-right:15px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            background-color: white;
+        }
+        .logodiv{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .innerpage .ruler{
+            border:1px solid rgb(104, 104, 104);
+       }
+       .innerpage .firstline{
+            color:rgb(126, 45, 80);
+       }
+       .images{
+        height: 330px;
+        display: flex;
+        position:relative;
+       }
+       .firsttwoimage{
+        width:50%;
+        height: 100%;
+        display: flex;
+       }
+
+       .paragraphs p{
+        margin-top: 10px;
+        color:rgb(39, 39, 39);
+        word-spacing: 2px;
+       }
+       .offer{
+        display: flex;
+        padding:15px 0px;
+        justify-content: space-between;
+       }
+       .special{
+        letter-spacing: 1px;
+       }
+       .lessthanbutton{
+        padding:2px 5px;
+        border:none;
+        background-color: rgb(126, 45, 80);
+        color:white;
+        border-radius: 50%;
+        font-size: 10px;
+       }
+       .places{
+        display:flex;
+        flex-wrap: wrap;
+        margin:10px 0px;
+       }
+       .place {
+        margin-right: 10px;
+        padding-bottom:10px;
+        width:333px;
+       }
+       .place .firstline{
+        display:flex;
+       }
+       .place .firstline button{
+        margin-right: 5px;
+       }
+       .place {
+        border-top:1px solid black ;
+        border-bottom: 1px solid black;
+       }
+       .imageandcontent{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+       }
+       .content{
+        width:400px;
+        padding-left: 20px;
+       }
+       .content h2{
+        color:rgb(126, 45, 80);
+        margin-top: 45px;
+        margin-bottom: 10px; 
+        }
+        .content p{
+            font-size:15px;
+            line-height: 20px;
+        }
+        .lastline{
+            margin: 20px;
+            color:rgb(126, 45, 80)
+        }
+        .bookcontent{
+            background-color: rgba(126, 45, 80, 0.619);
+            padding:10px;
+            color:white;
+            font-size:18px;
+            position:absolute;
+            width:200px;
+            font-variant: small-caps;
+            letter-spacing: 1px;
+            height:50px;
+            line-height: 30px;
+            top:215px;
+            left:480px;
+            padding-bottom: 39px;
+        }
+        .bookbtn{
+            position: absolute;
+            background-color: rgba(126, 45, 80, 0);
+            padding:8px;
+            color:white;
+            font-size:11px;
+            letter-spacing: 1px;
+            top:284px;
+            left:615px;
+            border-right:1.5px solid white;
+            border-bottom: 1.5px solid white;
+        }
+        .bookbtn:hover{
+            border-left:2px solid white;
+            border-top: 2px solid white;
+            border-right:none;
+            border-bottom:none;
+        }
+        .place .first{
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerpage">
+        <p class="headingline">The best flight offers, last-minute deals and others promotions from Qatar Airways ...</p>
+        <div class="innerpage">
+            <div class="logodiv">
+                <div class="logo">
+                    <img src="qatar-logo.png" alt="qatar-logo" width="170">
+                </div>
+                <div class="date">
+                    <b>1st August 2013</b>
+                </div>
+            </div>
+            <hr class="ruler">
+            <p class="firstline">Online Check-in | Bonus Qmiles | Holidays | Priviledge Club</p>
+            <div class="images">
+                <div class="firsttwoimage">
+                    <img src="statueofliberty.jpg" alt="statueofliberty" width="170" height="100%">
+                    <img src="snoemountain.jpg" alt="snoemountain" width="190">
+                </div>
+                <div class="nextimage">
+                    <img src="usa.jpg" alt="usa" width="100%" height="100%">
+                </div>
+                <div class="bookcontent">
+                    <p>Discover America with Qatar Airways</p>
+                </div>
+                <div class="bookbtn">BOOK NOW</div>
+            </div>
+            <div class="paragraphs">
+                <p>Dear Subscriber,</p>
+                <p>From its vast plans, snow-covered mountains, deep forests and strange rock formations, to soaring skyscrapers and a thunderous cultural scene, the USA is a collage of extremes.</p>
+                <p><span style="color:rgb(126, 45, 80)">Book</span> before <b>15th September 2013.</b></p>
+                <p>We look forward to welcoming you onboard to a truly rewarding experience.</p>
+                <p>*Terms & Conditions Apply.</p>
+            </div>
+            <hr class="ruler">
+            <div class="offer">
+                <p class="special">SPECIAL FLIGHT OFFERS FROM INDIA</p>
+                <p style="color:rgb(126, 45, 80)">View all offers <button class="lessthanbutton">></button></p>
+            </div>
+            <p style="background-color: rgb(126, 45, 80);color:white;padding:10px 5px;">From Ahmedabad</p>
+            <div class="places">
+                <div class="place" class="first">
+                    <div class="firstline">
+                        <button class="lessthanbutton">></button>
+                        <p><b>Chicago</b></p>
+                    </div>
+                    <div>
+                        <p><span>from </span>68,000 INR Economy Class</p>
+                    </div>
+                </div>
+                <div class="place" class="first">
+                    <div class="firstline">
+                        <button class="lessthanbutton">></button>
+                        <p><b>New York</b></p>
+                    </div>
+                    <div>
+                        <p><span>from </span>61,500 INR Economy Class</p>
+                    </div>
+                </div>
+                <div class="place" class="second">
+                    <div class="firstline">
+                        <button class="lessthanbutton">></button>
+                        <p><b>Houstan</b></p>
+                    </div>
+                    <div>
+                        <p><span>from </span>76,500 INR Economy Class</p>
+                    </div>
+                </div>
+                <div class="place" class="second">
+                    <div class="firstline">
+                        <button class="lessthanbutton">></button>
+                        <p><b>Washington</b></p>
+                    </div>
+                    <div>
+                        <p><span>from </span>62,500 INR Economy Class</p>
+                    </div>
+                </div>
+            </div>
+            <p style="color:rgb(126, 45, 80)">Terms and conditions apply</p>
+            <p style="padding:10px;background-color: grey;color:white;margin-top: 10px;letter-spacing: 1px;">EXCLUSIVE OFFER FOR STUDENT</p>
+            <div class="imageandcontent">
+                <div class="image">
+                    <img src="students-luggage.jpg" alt="students-luggage" width="300">
+                </div>
+                <div class="content">
+                    <h2>Exclusive offer for student</h2>
+                    <p>Qatar airways introduces an exclusive offer for students travelling from india to australia, canada, Europe and USA.Book and travel before <b>31st October 2013</b> to avail additional baggage allowance.</p>
+                    <p style="color:rgb(126, 45, 80)">Read More <button class="lessthanbutton">></button></p>
+                </div>
+            </div>
+            <hr class="ruler">
+            <p class="lastline">World's 5-star airline <b>qatarairways.com</b></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="firstline">Online Check-in | Bonus Qmiles | Holidays | Priviledge Club</p>
+        <hr class="ruler">
+        <p class="secondline">You have received this newsletter after signing up either when you made a purchase online or registered with us at qatarairways</p>
+        <p class="thirdline"><span>&#169</span> 2013 QatarAirways.Worel's 5-star airline.All rights reserved .Review our privacy policy.</p>
+    </div>
+</body>
+</html>
